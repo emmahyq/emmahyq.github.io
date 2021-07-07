@@ -1,5 +1,5 @@
 # hey there, it's emma
-check out my [personal website](https://ehuang.dev) 🎊
+visit my [personal website](https://ehuang.dev) 🎊
 
 some stuff about me:
 - 📚 currently learning javascript, java, swift
@@ -7,7 +7,7 @@ some stuff about me:
 - ✨ interested in ui/ux design and frontend development
 - 🏫 current high school student in the united states
 - 🔬 favorite classes: biology, precalculus, ap computer science a, ap world history
-- 👩🏻‍🎓 aspiring eecs/biology major, but that's subject to change
+- 👩🏻‍🎓 aspiring eecs/cognitive sciences major for now
 
 some hobbies:
 - 🎹 classically trained in piano/violin, 11 and 5 years respectively
