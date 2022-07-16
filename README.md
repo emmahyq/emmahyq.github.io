@@ -1,5 +1,5 @@
-# hey there, you've found the stuff that makes up my website.
-visit it [right here](https://ehuang.dev) 🎊
+# hey there, I'm Emma
+you've found the stuff that makes up my website. visit it [right here](https://ehuang.dev) 🎊
 
 my status:
 - 📚 reading: [the black swan](https://www.google.com/books/edition/_/YdOYmYA2TJYC?hl=en) by Nassim Nicholas Taleb
