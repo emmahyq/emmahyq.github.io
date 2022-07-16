@@ -1,17 +1,6 @@
-# hey there, it's emma
-visit my [personal website](https://ehuang.dev) 🎊
+# hey there, you've found the stuff that makes up my website.
+visit it [right here](https://ehuang.dev) 🎊
 
-some stuff about me:
-- 📚 currently learning javascript, java, swift
-- 💎 proficient in html, css, python
-- ✨ interested in ui/ux design and frontend development
-- 🏫 current high school student in the united states
-- 🔬 favorite classes: biology, precalculus, ap computer science a, ap world history
-- 👩🏻‍🎓 aspiring eecs/cognitive sciences major for now
-
-some hobbies:
-- 🎹 classically trained in piano/violin, 11 and 5 years respectively
-- 🎧 ameteur electronic music producer
-- 📖 love to read: see [salt to the sea](https://en.wikipedia.org/wiki/Salt_to_the_Sea) by ruta sepetys and [ready player one](https://en.wikipedia.org/wiki/Ready_Player_One) by ernest cline
-- 🎮 casual [minecraft](https://www.minecraft.net/en-us/) player
-- 👩🏻‍💻 avid attendee of high school and collegiate [hackathons](https://devpost.com/aecyi)
+my status:
+- 📚 reading: [the black swan](https://www.google.com/books/edition/_/YdOYmYA2TJYC?hl=en) by Nassim Nicholas Taleb
+- 🎧 listening to: [save yourself](https://www.last.fm/music/ONE+OK+ROCK/Save+Yourself) by ONE OK ROCK
