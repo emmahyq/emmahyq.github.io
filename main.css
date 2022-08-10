@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'Archivo';
+    src: url(fonts/Archivo-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url(fonts/Archivo-Light.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Dank Mono';
+    src: url(fonts/DankMono-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Dank Mono';
+    src: url(fonts/DankMono-Italic.otf);
+    font-style: italic;
+}
+
+:root {
+    --text-color: #1A191E;
+    --bg-color: #F3F6F9;
+    --accent-color: #5566ff;
+  }
+
+  ::-moz-selection { /* firefox */
+    background: var(--accent-color);
+    color: var(--bg-color);
+  }
+  
+  ::selection {
+    background: var(--accent-color);
+    color: var(--bg-color);
+  } 
+  
+  body {
+    margin: 0;
+    background-color: var(--bg-color);     
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: all 200ms ease;
+  }
+  
+
+  a {
+    font-weight: 400;
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: all 200ms ease;
+  }
+
+  a:hover {
+    opacity: 0.75;
+    cursor: pointer;
+  }
+
+  a.social {
+    font-weight: 300;
+    color: var(--text-color);
+  }
+
+  a.social:hover {
+    opacity: 0.6;
+  }
+
+  .unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+  .content-main {
+    min-height: 60vh;
+    color: var(--text-color);
+    padding: 2em 1em;
+    max-width: 45rem;
+    margin: auto;
+  }
+
+  .fade-in {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 500ms;
+    animation-duration: 500ms;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+
+  .parent-grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-top: 6.5em;
+  }
+
+  .text-framing {    
+    font-family: -apple-system, BlinkMacSystemFont, 'Dank Mono', 'Roboto Mono', 'Courier New', 'Courier', monospace;
+  }
+
+  .text-top {
+    font-size: calc(12px + 0.8vmin);
+  }
+
+  .text-bottom {
+    font-size: calc(9px + 0.7vmin);
+    opacity: 0.7;
+  }
+
+  .text-body {
+    font-size: calc(13px + 1.3vmin);
+    line-height: calc(26px + 2.6vmin);
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Archivo', 'Segoe UI', 'Roboto', 'Ubuntu', 'Helvetica Neue', 'Arial', 'Helvetica', sans-serif;
+    font-weight: 300;  
+  }
+
+  .rectangle {
+    margin-bottom: calc(-6.0px - 0.60vmin);
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    height: calc(23px + 2.3vmin);
+    border-radius: 80px;
+  }
+
+  #wa-lake {
+    width: calc(80px + 8.0vmin);
+    background: url(images/wa-lake.png);
+    background-repeat: no-repeat;
+    background-size: calc(85px + 8.5vmin);
+  }
+
+  #cat-computer {
+    width: calc(60px + 6.0vmin);
+    background: url(images/cat-computer.png);
+    background-repeat: no-repeat;
+    background-size: calc(60px + 6.0vmin);
+  }
+
+  #goose-army {
+    width: calc(70px + 7.0vmin);
+    background: url(images/goose-army.png);
+    background-repeat: no-repeat;
+    background-size: calc(70px + 7.0vmin);
+  }
+
+  #music-ui {
+    width: calc(70px + 7.0vmin);
+    background: url(images/music-ui.png);
+    background-repeat: no-repeat;
+    background-size: calc(70px + 7.0vmin);
+  }
+
+  #toad-kart {
+    width: calc(40px + 4.0vmin);
+    background: url(images/toad-kart.png);
+    background-repeat: no-repeat;
+    background-size: calc(40px + 4.0vmin);
+  }
+
+  #dog-speakers {
+    width: calc(50px + 5.0vmin);
+    background: url(images/dog-speakers.png);
+    background-repeat: no-repeat;
+    background-size: calc(50px + 5.0vmin);
+  }
+  
+  #cold-futon {
+    width: calc(50px + 5.0vmin);
+    background: url(images/cold-futon.png);
+    background-repeat: no-repeat;
+    background-size: calc(50px + 5.0vmin);
+  }

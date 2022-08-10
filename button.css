@@ -1,0 +1,106 @@
+.button,
+.knobs,
+.layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.button {
+  position: relative;
+  top: 50%;
+  width: 60px;
+  height: 25px;
+  margin: -20px auto 0 auto;
+  overflow: hidden;
+}
+
+.button.r,
+.button.r .layer {
+  border-radius: 80px;
+}
+
+.checkbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.knobs {
+  z-index: 2;
+}
+
+.layer {
+  width: 100%;
+  background-color: var(--accent-color);
+  opacity: 0.2;
+  transition: 0.3s ease all;
+  z-index: 1;
+}
+
+/* Button 3 */
+#button-3 .knobs:before {
+  content: "✿";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 15px;
+  height: 15px;
+  color: var(--bg-color);
+  font-size: 10px;
+  text-align: center;
+  line-height: 1.5;
+  padding: 1px 1px;
+  background-color: var(--accent-color);
+  opacity: 0.4;
+  border-radius: 50%;
+  transition: 0.3s ease all, left 0.3s cubic-bezier(0.10, 0.80, 0.30, 1.10);
+}
+
+#button-3 .checkbox:active + .knobs:before {
+  width: 50px;
+  border-radius: 100px;
+}
+
+#button-3 .checkbox:checked:active + .knobs:before {
+  margin-left: -35px;
+}
+
+#button-3 .checkbox:checked + .knobs:before {
+  content: "✦";
+  left: 39px;
+  background-color: var(--accent-color);
+  opacity: 0.4;
+  color: var(--bg-color);
+}
+
+#button-3 .checkbox:checked ~ .layer {
+    background-color: var(--accent-color);
+    opacity: 0.2;
+}
+
+.tooltip {
+    cursor: crosshair;
+}
+.tooltip span {
+    font-family: -apple-system, BlinkMacSystemFont, 'Dank Mono', 'Roboto Mono', 'Courier New', 'Courier', monospace;
+    font-size: calc(6px + 0.6vmin);
+    line-height: calc(6px + 0.6vmin);
+    display: none;
+    padding: 7px 13px;
+    border-radius: 80px;
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+}
+.tooltip:hover span {
+    display: block;
+    position: fixed;
+    overflow: hidden;
+}
