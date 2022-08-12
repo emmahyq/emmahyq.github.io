@@ -23,6 +23,7 @@ var tooltipSpan3 = document.getElementById('tooltip-span-3');
 var tooltipSpan4 = document.getElementById('tooltip-span-4');
 var tooltipSpan5 = document.getElementById('tooltip-span-5');
 
+const isHoverableDevice = window.matchMedia('(hover: hover) and (pointer: fine)')
 
 function isTouchDevice() {
     return ( 'ontouchstart' in window ) ||
@@ -35,7 +36,7 @@ function isTouchDevice() {
         buttonFile.setAttribute('href', cssFile);
     }       
    
-   if( isTouchDevice() ) {
+   if( isTouchDevice() && (isHoverableDevice == false) ) {
         changeCSS('button-touch.css', 2);
     } else {
 
