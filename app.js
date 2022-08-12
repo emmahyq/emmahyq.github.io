@@ -65,7 +65,7 @@ function isTouchDevice() {
             tooltipSpan5.style.left = (x5 + 6) + 'px';
         };       
         
-    } else if ( isTouchDevice() ) {
+    } else {
         
         changeCSS('button-touch.css', 2);
 
