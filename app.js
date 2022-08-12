@@ -38,7 +38,7 @@ function isTouchDevice() {
    
    if( isTouchDevice() && (isHoverableDevice == false) ) {
         changeCSS('button-touch.css', 2);
-    } else {
+    } else if (isTouchDevice() == false ) {
 
         window.onmousemove = function (e) {
             var x1 = e.clientX,
