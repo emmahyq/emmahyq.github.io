@@ -36,10 +36,8 @@ function isTouchDevice() {
         buttonFile.setAttribute('href', cssFile);
     }       
    
-   if( isHoverableDevice == false ) {
-        changeCSS('button-touch.css', 2);
-    } else {
-
+   if( isHoverableDevice.matches ) {
+    
         window.onmousemove = function (e) {
             var x1 = e.clientX,
                 y1 = e.clientY;
@@ -65,7 +63,11 @@ function isTouchDevice() {
                 y5 = e.clientY;
             tooltipSpan5.style.top = (y5 + 6) + 'px';
             tooltipSpan5.style.left = (x5 + 6) + 'px';
-        };
+        };       
+        
+    } else if ( isTouchDevice() ) {
+        
+        changeCSS('button-touch.css', 2);
 
     }
 
