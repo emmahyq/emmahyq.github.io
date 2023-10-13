@@ -90,7 +90,7 @@
     cursor: crosshair;
 }
 .tooltip span {
-    font-family: -apple-system, BlinkMacSystemFont, 'Dank Mono', 'Roboto Mono', 'Courier New', 'Courier', monospace;
+    font-family: 'Dank Mono', -apple-system, BlinkMacSystemFont, 'Roboto Mono', 'Courier New', 'Courier', monospace;
     font-size: calc(6px + 0.6vmin);
     line-height: calc(6px + 0.6vmin);
     display: none;
