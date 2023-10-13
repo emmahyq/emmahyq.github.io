@@ -124,7 +124,7 @@
   }
 
   .text-framing {    
-    font-family: -apple-system, BlinkMacSystemFont, 'Dank Mono', 'Roboto Mono', 'Courier New', 'Courier', monospace;
+    font-family: 'Dank Mono', -apple-system, BlinkMacSystemFont, 'Roboto Mono', 'Courier New', 'Courier', monospace;
   }
 
   .text-top {
@@ -140,7 +140,7 @@
     font-size: calc(13px + 1.3vmin);
     line-height: calc(26px + 2.6vmin);
 
-    font-family: -apple-system, BlinkMacSystemFont, 'Archivo', 'Segoe UI', 'Roboto', 'Ubuntu', 'Helvetica Neue', 'Arial', 'Helvetica', sans-serif;
+    font-family: 'Archivo', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Ubuntu', 'Helvetica Neue', 'Arial', 'Helvetica', sans-serif;
     font-weight: 300;  
   }
 
