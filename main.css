@@ -160,6 +160,13 @@
     background-size: calc(85px + 8.5vmin);
   }
 
+  #uw-cherry {
+    width: calc(80px + 8.0vmin);
+    background: url(images/uw-cherry.png);
+    background-repeat: no-repeat;
+    background-size: calc(85px + 8.5vmin);
+  }
+
   #cat-computer {
     width: calc(60px + 6.0vmin);
     background: url(images/cat-computer.png);
@@ -184,6 +191,13 @@
   #toad-kart {
     width: calc(40px + 4.0vmin);
     background: url(images/toad-kart.png);
+    background-repeat: no-repeat;
+    background-size: calc(40px + 4.0vmin);
+  }
+
+  #minecraft-cherry {
+    width: calc(40px + 4.0vmin);
+    background: url(images/minecraft-cherry.png);
     background-repeat: no-repeat;
     background-size: calc(40px + 4.0vmin);
   }
