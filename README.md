@@ -1,4 +1,4 @@
-# hey there, I'm Emma
+# hello :D
 you've found the stuff that makes up my website. visit it [right here](https://ehuang.dev) 🎊
 
 more stuff:
