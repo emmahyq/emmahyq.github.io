@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<title>Emma Huang</title>
+<meta charset="UTF-8">
+<meta name="author" content="Emma Huang">
+<meta name="description" content="emma huang ✿✦ personal website">
+<meta name="keywords" content="personal website, design, student portfolio, portfolio, Emma Huang, student, designer, programmer, frontend, web development, personal site, hackathon, UI">
+
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="main.css">
+
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5566ff">
+
+<style>
+    #teaching {
+        display: none;
+    }
+</style>
+
+</head>
+
+<body>
+
+<div id="cursor-blur"></div>
+
+<div class="content-main fade-in flex-container">
+
+    <div class="content col-grid header">
+
+        <div id="name-col">
+            <div>
+                <img id="cat" src="images/about-cat.png" alt="Magenta pixel cat with a heart speech bubble" onmouseover="mouseOver()" onmouseout="mouseOut()" > 
+                <h1 class="text-header">emma huang</h1> 
+                <p class="text-subheader">(she/her)</p>
+            </div>
+
+            <div class="links">
+                <p>
+                    <script>
+                        emailE=('emhn72@' + 'gmail.com')
+                        document.write('<a data-cursor="pointer" href="mailto:' + emailE + '">' + 'email' + '</a>')
+		            </script>
+                </p>
+                <p><a data-cursor="pointer" href="https://linkedin.com/in/emmahyq">linkedin</a></p>
+                <p><a data-cursor="pointer" href="https://github.com/emmahyq">github</a></p>
+            </div>
+        </div>
+
+        <div id="content-col">
+
+            <div>
+                <h1 class="text-section">about</h1> 
+
+                <div class="text-body">
+                    <p>hello! I am a third-year BS/MS student at the <a data-cursor="pointer" href="https://www.washington.edu/">University of Washington</a> pursuing a double degree in computer science and mathematics.</p>
+                    <p>in no particular order, I am broadly interested in: </p>
+                    <ul>
+                        <li>CS education, particularly in “math for computer science” and introductory theory courses like discrete math, probability, statistics, and algorithms</li>
+                        <li>quantum information science and quantum algorithms; classical and post-quantum cryptography</li>
+                        <li>human-centered computing, interaction and UI/UX design</li>
+                    </ul> 
+
+                </div>
+            </div>
+
+            <div>
+                <h1 class="text-section">teaching</h1> 
+
+
+                <div class="text-body">
+                    <p>as an undergraduate student, I’ve been fortunate enough to serve as a teaching assistant for a variety of 300-level introductory computer science courses at the University of Washington.</p>
+                    <p>in Autumn 2025, I am TAing for <a data-cursor="pointer" href="https://courses.cs.washington.edu/courses/cse312/25au/">CSE 312 (Foundations of Computing II)</a>. </p>
+
+                    <p>previously, I have been a TA for:</p>
+                    <ul>
+                        <li><a data-cursor="pointer" href="https://courses.cs.washington.edu/courses/cse311/25su/">CSE 311 (Foundations of Computing I), Summer 2025</a></li>
+                        <li><a data-cursor="pointer" href="https://courses.cs.washington.edu/courses/cse311/25sp/">CSE 311 (Foundations of Computing I), Spring 2025</a></li>
+                        <li><a data-cursor="pointer" href="https://courses.cs.washington.edu/courses/cse312/25wi/">CSE 312 (Foundations of Computing II), Winter 2025</a></li>
+                        <li><a data-cursor="pointer" href="https://courses.cs.washington.edu/courses/cse311/24au/">CSE 311 (Foundations of Computing I), Autumn 2024</a></li>
+                        <li><a data-cursor="pointer" href="https://courses.cs.washington.edu/courses/cse331/24su/">CSE 331 (Sofware Design & Implementation), Summer 2024</a></li>
+                    </ul> 
+
+                    <p>related links:</p>
+                    <ul>
+                        <li><a data-cursor="pointer" href="https://www.cs.washington.edu/academics/teaching-assistants/">Allen School TA home page</a></li>
+                        <li><a data-cursor="pointer" href="https://uwace.vercel.app/">UW Association for Computing Education (ACE)</a></li>
+                    </ul> 
+
+                </div>
+            </div>
+
+            <div>
+                <h1 class="text-section">misc.</h1> 
+
+
+                <div class="text-body">
+                    <p>some former and current side projects:</p>
+                    <ul>
+                        <li><a data-cursor="pointer" href="https://behance.net/emmah6">design portfolio</a></li>
+                        <li><a data-cursor="pointer" href="https://devpost.com/emmahyq">devpost page</a></li>
+                    </ul> 
+
+                </div>
+            </div>
+
+    <div class="footer">
+        <p>updated september 2025. see <a data-cursor="pointer">source code</a>, or <a data-cursor="pointer" onclick="themeColor_set()">toggle <span id="ld">dark</span> mode</a>.</p> 
+    </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="cursor.js"></script>
+<script src="ld.js"></script>
+
+<script>
+function mouseOver() {
+  if (screen && screen.width > 430) {
+    document.getElementById("cat").src = "images/exclaim-cat.png";
+  }
+}
+
+function mouseOut() {
+  if (screen && screen.width > 430)  {
+    document.getElementById("cat").src = "images/about-cat.png";
+  }
+} 
+</script>
+
+</body>
+
+
+</html>
